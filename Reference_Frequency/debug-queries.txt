@@ -1,0 +1,15 @@
+definition 1.6
+proposition 1.6
+remark 1.6
+example 1.6
+exercise 1.6
+definition 1.7
+proposition 1.7
+remark 1.7
+example 1.7
+exercise 1.7
+definition 1.8
+proposition 1.8
+remark 1.8
+example 1.8
+exercise 1.8
