@@ -1,0 +1,6 @@
+# Don't commit my venv with the installed packages.
+MP3_Metadata_Correction/myvenv/
+
+# Don't commit my audio files, at least for now.
+*.mp3
+
