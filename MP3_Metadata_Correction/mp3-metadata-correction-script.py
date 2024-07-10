@@ -10,9 +10,9 @@ async def recognize_song(file_path):
     if out and 'track' in out:
         return {
             'title': out['track'].get('title'),
-            'album': out['track'].get('album', {}).get('name'),
+            'album': out['track']['sections'][0]['metadata'][0]['text'],
             'artist': out['track'].get('subtitle'),
-            'year': out['track'].get('releasedate')
+            'year': out['track']['sections'][0]['metadata'][2]['text']
         }
     return None
 
